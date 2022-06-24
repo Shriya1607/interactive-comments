@@ -1,0 +1,65 @@
+
+
+.App {
+  height: 100%;
+  background-image: linear-gradient(#e66465, #9198e5);;
+}
+
+/* General styling */
+button {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #fecaca;
+}
+
+.container {
+  /* General styling */
+  background-color:linear-gradient(#e66465, #9198e5); ;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: all 1s;
+
+  /* Center the container */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desktop {
+  width: 90%;
+}
+
+.tablet {
+  width: 768px;
+}
+
+.phone {
+  width: 480px;
+}
+
+.full {
+  /* background-color: #f3e8ff; */
+  background-color: #fecaca;
+  overflow-x: hidden;
+
+}
+
+.image-container {
+  width: 50%;
+  float: left;
+  max-height: 80%;
+  overflow-x: hidden;
+  object-fit: fill;
+}
+
+.div2 {
+  width: 50%;
+  float: right;
+  object-fit: fill;
+}
